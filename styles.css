@@ -1,0 +1,196 @@
+*,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(180, 183, 187);
+}
+
+.dice {
+    max-width:200px;
+    margin: 2rem auto;
+    display: grid;
+    border-radius: 20px;
+    background-color: aliceblue;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1rem;
+    place-items: center;
+    box-shadow: 0.2rem 0.8rem 0.8rem 0.2rem gray;
+}
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 3;
+  grid-column: 3;
+}
+
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 2;
+}
+
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 4;
+}
+.dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 2;
+}
+.dot5 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 3;
+  grid-column: 3;
+}
+.dot6 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 4;
+}
+.dot7 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 2;
+}
+.dot8 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 4;
+}
+.dot9 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 2;
+}
+.dot10 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 4;
+}
+.dot11 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 2;
+}
+.dot12 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 2;
+}
+.dot13 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 3;
+  grid-column: 3;
+}
+.dot14 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 4;
+}
+.dot15 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 4;
+}
+.dot16 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 2;
+}
+.dot17 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 3;
+  grid-column: 2;
+}
+.dot18 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 2;
+}
+.dot19 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 2;
+  grid-column: 4;
+}
+.dot20 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 3;
+  grid-column: 4;
+}
+.dot21 {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    grid-row: 4;
+  grid-column: 4;
+}
